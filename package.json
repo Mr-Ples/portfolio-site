@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://oath2: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@github.com/Mr-Ples/portfolio-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mr-Ples/portfolio-site/issues"
+  },
+  "homepage": "https://github.com/Mr-Ples/portfolio-site#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.11"
+  }
+}
