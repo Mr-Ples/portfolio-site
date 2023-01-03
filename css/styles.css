@@ -600,8 +600,8 @@ progress {
 }
 
 .img-portf {
-  width: 416px; 
-  height: 312px; 
+  width: 416px !important; 
+  height: 312px !important; 
   object-fit: cover;
 }
 
