@@ -599,12 +599,15 @@ progress {
   content: "— ";
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
+.img-portf {
   width: 416px; 
   height: 312px; 
   object-fit: cover;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 
 .img-thumbnail {
