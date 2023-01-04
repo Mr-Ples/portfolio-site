@@ -599,6 +599,10 @@ progress {
   content: "— ";
 }
 
+.img-fit {
+  object-fit: cover;
+}
+
 .img-portf {
   width: 416px !important; 
   height: 312px !important; 
