@@ -606,7 +606,6 @@ progress {
 .img-portf {
   width: 416px !important; 
   height: 312px !important; 
-  object-fit: cover;
 }
 
 .img-fluid {
