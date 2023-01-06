@@ -34,10 +34,6 @@ jobs:
           lfs: true
       - name: Checkout lfs objects
         run: git lfs checkout
-      # - name: Install Node.js
-      #   uses: actions/setup-node@v3
-      #   with:
-      #     node-version: 16
       - name: Install deps
         uses: pnpm/action-setup@v2
         with:
