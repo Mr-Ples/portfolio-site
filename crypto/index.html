@@ -53,6 +53,8 @@
         src="https://www.facebook.com/tr?id=564839285176783&ev=PageView&noscript=1"
         /></noscript>
         <!-- End Meta Pixel Code -->
+        <!-- Login Script Code -->
+        <script src="./index.mjs" defer type="module"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -67,6 +69,7 @@
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#example">Example</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
@@ -187,20 +190,18 @@
                 </div>
             </div>
         </section>
+        <!-- Login example-->
         <section class="page-section" id="example">
-          <div class="col-lg-5 col-sm-6">
-              <!-- Portfolio item login-->
-              <div class="portfolio-item">
-                  <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioLogin">
-                      TODO I'm gonna add an example login button here
-                      image should say like "CLICK HERE TO TEST LOGIN FLOW"
-                  </a>
-                  <div class="portfolio-caption">
-                      <div class="portfolio-caption-heading">Login Example</div>
-                      <div class="portfolio-caption-subheading text-muted">This is a login example</div>
-                  </div>
-              </div>
-          </div>
+            <div class="container">
+                <div class="text-center">
+                    <w3m-core-button></w3m-core-button>
+                    <div class="portfolio-caption mt-4">
+                        <h2 class="portfolio-caption-heading">Web3 Login Example</h2>
+                        <p class="text-muted">Experience the login flow.</p>
+                        <p class="">You could have this on your website. Customizations possible.</p>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- About-->
         <section class="page-section bg-light" id="about">
@@ -689,7 +690,7 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="../js/scripts.js"></script>
+        <script type="module" src="../js/scripts.js"></script>
         <!-- Chat bot-->
         <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "47e2a3a17216de0466d54faa8e8da0fb8917850522f450510c310f19c0f2bd942dae4e0be66edd921974892bbe4221b1", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="../https://salesiq.zoho.eu/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
     </body>
