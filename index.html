@@ -52,6 +52,8 @@
         src="https://www.facebook.com/tr?id=564839285176783&ev=PageView&noscript=1"
         /></noscript>
         <!-- End Meta Pixel Code -->
+        <!-- Login Script Code -->
+        <script src="./js/index.mjs" defer type="module"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -85,37 +87,79 @@
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted">We have what you need.</h3>
+                <div class="row">
+                    <div class="container">
+                        <div class="text-center">
+                            <h2 class="section-heading text-uppercase">Services</h2>
+                            <h3 class="section-subheading text-muted">We have what you need.</h3>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                    <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <h4 class="my-3">E-Commerce</h4>
+                                <p class="text-muted">We develop fully functional solutions for your online store.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                    <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <h4 class="my-3">Responsive Design</h4>
+                                <p class="text-muted">Rapid development of beautiful and modern landing pages for your website that works on any device large and small.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                    <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <h4 class="my-3">Web Security</h4>
+                                <p class="text-muted">We take extra steps to ensure security above and beyond industry standards for sensitive projects.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">E-Commerce</h4>
-                        <p class="text-muted">We develop fully functional solutions for your online store.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Responsive Design</h4>
-                        <p class="text-muted">Rapid development of beautiful and modern landing pages for your website that works on any device large and small.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Web Security</h4>
-                        <p class="text-muted">We take extra steps to ensure security above and beyond industry standards for sensitive projects.</p>
+                <div class="row" style="margin-top: 50px;">
+                    <div class="container">
+                        <div class="text-center">
+                            <h3 class="section-heading text-uppercase">Blockchain Integration</h3>
+                            <h3 class="section-subheading text-muted">You could be the next big thing.</h3>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-4x">
+                                    <img loading="lazy" class="" src="../assets/img/crypto/btc.png" width="130" height="130" alt="Bitcoin">
+                                </span>
+                                <h4 class="my-3">E-Commerce</h4>
+                                <p class="text-muted">We develop fully functional cryptocurrency solutions for your online store.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-4x">
+                                    <img loading="lazy" src="../assets/img/crypto/ethereum.png" alt="Ethereum" width="130" height="130">
+                                </span>
+                                <h4 class="my-3">Web3</h4>
+                                <p class="text-muted">We can set up web3 integration for your website. Tokens, NFTs, Bitcoin Lightning.</p>
+
+                                <h5 class="portfolio-caption-heading">Web3 Login Example</h5>
+                                <w3m-core-button></w3m-core-button>
+                                <div class="portfolio-caption mt-4">
+                                    <p class="text-muted">Experience the login flow.</p>
+                                </div>
+
+                            </div>
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-4x">
+                                    <img loading="lazy" src="../assets/img/crypto/bnb.png" alt="Binance Smart Chain" width="130" height="130">
+                                </span>
+                                <h4 class="my-3">Chain Agnostic</h4>
+                                <p class="text-muted">We work with Bitcoin, Ethereum, Binance Smart Chain, Polygon, Loopring, and many more.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </div>    
         </section>
         <!-- Portfolio Grid-->
         <section class="page-section bg-light" id="portfolio">
@@ -351,7 +395,7 @@
                             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Landing Page</h4>
-                        <p class="text-muted">Starting at $200</p>
+                        <p class="text-muted">Starting at $189</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
@@ -359,15 +403,43 @@
                             <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Premium Packages</h4>
-                        <p class="text-muted">Starting at $500</p>
+                        <p class="text-muted">Starting at $499</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa-solid fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa-solid fa-wrench fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Website Maintenance</h4>
+                        <p class="text-muted">Starting at $25</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="margin-top: 50px;">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa-solid fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa-solid fa-cloud fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Blockchain Integration</h4>
+                        <p class="text-muted">Starting at $1799</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+                            <i class="fas fa-globe fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Website Maintenance</h4>
-                        <p class="text-muted">Starting at $20/mo.</p>
+                        <h4 class="my-3">Blockchain Development</h4>
+                        <p class="text-muted">Starting at $4999</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-comments fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Crypto features consultation</h4>
+                        <p class="text-muted">Contact us for a free consultation!</p>
                     </div>
                 </div>
             </div>
