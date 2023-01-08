@@ -690,7 +690,7 @@ progress {
   max-width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
-  margin-top: var(--bs-gutter-y);
+  margin-top: calc(var(--bs-gutter-y) * 1.5);
 }
 
 .col {
@@ -2142,6 +2142,11 @@ progress {
   }
 }
 @media (max-width: 767.98px) {
+  .mmt-5 {
+    margin-top: 3rem;
+  }
+  
+
   .table-responsive-md {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
