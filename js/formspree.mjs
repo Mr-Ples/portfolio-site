@@ -1,5 +1,4 @@
 const form = document.getElementById("contactForm");
-console.log('form', form)
 async function handleSubmit(event) {
   event.preventDefault();
 
