@@ -5,7 +5,8 @@ export default {
 	build: {
 		rollupOptions: {
 			input: {
-				main: resolve(__dirname, "index.html")
+				main: resolve(__dirname, "index.html"),
+				thankyou: resolve(__dirname, "thank-you.html")
 			}
 		}
 	}
