@@ -163,6 +163,27 @@
                                 <h4 class="my-3">Web3</h4>
                                 <p class="text-muted">We can set up web3 integration for your website. Tokens, NFTs, Bitcoin Lightning.</p>
                                 <br>
+                                <button onclick="sendLoginEvent()">Login</button>
+
+                                <script>
+                                    function sendLoginEvent() {
+                                        const eventData = {
+                                            event_category: "c_click",
+                                            event_label: "c_login_click_dunno_man",
+                                            user_id: "yeet",
+                                            app_version: "2",
+                                            current_subscriptions: "",
+                                            os: window.navigator.platform.os,
+                                            browser: window.navigator.platform.name,
+                                            timestamp: Date.now()
+                                        };
+                                        window.dataLayer = window.dataLayer || [];
+                                        window.dataLayer.push({
+                                            'event' : 'c_login_click',
+                                            eventData
+                                        });
+                                    }
+                                </script>
 <!--                                <h5 class="portfolio-caption-heading">Web3 Login Example</h5>-->
 <!--                                <w3m-core-button></w3m-core-button>-->
 <!--                                <div class="portfolio-caption">-->
