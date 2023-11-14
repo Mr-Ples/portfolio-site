@@ -171,11 +171,11 @@
                                             event : 'c_login_click',
                                             event_category: "c_click",
                                             event_label: "c_login_click_dunno_man",
-                                            user_id: "yeet",
-                                            app_version: "2",
+                                            user_id: (Math.random() < 0.5) ? "user1" : "user2",
+                                            app_version: (Math.random() < 0.5) ? "1" : "2",
                                             current_subscriptions: "",
-                                            os: window.navigator.platform,
-                                            browser: "chrome",
+                                            os: (Math.random() < 0.5) ? "linux" : "windows",
+                                            browser: (Math.random() < 0.5) ? "firefox" : "chrome",
                                             timestamp: Date.now()
                                         };
                                         console.log(eventData);
