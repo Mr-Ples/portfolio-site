@@ -15,7 +15,7 @@
                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-K5XFPR4Z');</script>
+        })(window,document,'script','dataLayer','GTM-PJW8WKWM');</script>
         <!-- End Google Tag Manager -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -168,20 +168,21 @@
                                 <script>
                                     function sendLoginEvent() {
                                         const eventData = {
+                                            event : 'c_login_click',
                                             event_category: "c_click",
                                             event_label: "c_login_click_dunno_man",
                                             user_id: "yeet",
                                             app_version: "2",
                                             current_subscriptions: "",
-                                            os: window.navigator.platform.os,
-                                            browser: window.navigator.platform.name,
+                                            os: window.navigator.platform,
+                                            browser: "chrome",
                                             timestamp: Date.now()
                                         };
+                                        console.log(eventData);
                                         window.dataLayer = window.dataLayer || [];
-                                        window.dataLayer.push({
-                                            'event' : 'c_login_click',
+                                        window.dataLayer.push(
                                             eventData
-                                        });
+                                        );
                                     }
                                 </script>
 <!--                                <h5 class="portfolio-caption-heading">Web3 Login Example</h5>-->
